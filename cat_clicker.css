@@ -1,0 +1,64 @@
+.header{
+	font-size: 30px;
+	font-family: 'lemon';
+	margin: auto;
+	text-align: center;
+}
+
+.list{
+    display:block;
+    width:100%;
+    margin: 20;
+}
+
+.cat{
+  height:auto;
+  float:left;
+  width: 90%;
+  padding: 10px;
+  display: block;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.cat1,.cat2,.cat3,.cat4,.cat5{
+    width:18%;
+    display:grid;
+    float: left;
+}
+
+.name{
+    font-size:20px;
+    font-family:Stencil Std, fantasy;
+    text-align:center;
+    font-weight: 900;
+    line-height: 0.5em;
+}
+
+.display{
+    height: 400px;
+    width: 100%;
+    display: grid;
+}
+
+.display_cat{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: 300px;
+    cursor: pointer;
+
+}
+
+.display_name,.display_time{
+    font-size:26px;
+    font-family:Stencil Std, fantasy;
+    text-align:center;
+    font-weight: 900;
+    line-height: 0em;
+}
+
+.time{
+    display: none;
+}
